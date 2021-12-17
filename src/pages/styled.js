@@ -5,14 +5,8 @@ export const ContainerSignUp = styled.form`
   flex-direction: column;
   margin: 0 auto;
   width: 90%;
+  min-width: 200px;
   gap: 2vh;
-`;
-
-export const HeaderSignUp = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1.5rem;
 `;
 
 export const ContainerBotao = styled.div`
@@ -29,6 +23,7 @@ export const ContainerForm = styled.div`
   display: flex;
   margin: 0 auto;
   width: 34%;
+  min-width: 250px;
   margin-top: 3%;
   padding: 3% 1%;
   border: 1px solid #218BF5;
